@@ -1,2 +1,32 @@
+html
+	position relative
+	min-height 100%
+
 body 
-	color red
+	color text-color
+	font-family font-regular
+	background page-bg
+	font-smoothing: antialiased
+	margin 0 0 (footer-height + footer-vert-padding + footer-vert-padding)
+	padding 0
+
+footer
+	margin-top footer-top-margin
+	background footer-bg
+	color footer-color
+	padding footer-vert-padding 0
+	position absolute
+	left 0
+	bottom 0
+	width 100%
+	//@media (min-width:screen-sm)
+		//height (footer-vert-padding + footer-vert-padding)
+
+a
+	cursor pointer
+	color link-color
+	&:hover 
+		color link-hover-color
+
+label
+	font-weight font-bold

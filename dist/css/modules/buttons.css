@@ -1,0 +1,25 @@
+.btn {
+  font-weight: font-bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 8px 16px;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-default {
+  background: #fff;
+  border: 1px solid border-default;
+}
+.btn-default:hover {
+  background: border-default;
+}
+.btn-primary {
+  background: brand-primary;
+  color: #fff;
+  border: 1px solid brand-primary;
+}
+.btn-primary:hover {
+  background: link-hover-color;
+  color: #fff;
+}

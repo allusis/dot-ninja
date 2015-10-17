@@ -1,0 +1,9 @@
+.block {
+  display: block;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.flex {
+  display: flex;
+}

@@ -1,3 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,300");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  color: #f00;
+  color: #444;
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  margin: 0 0 140px;
+  padding: 0;
+}
+footer {
+  margin-top: 40px;
+  background: #333;
+  color: rgba(255,255,255,0.5);
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  cursor: pointer;
+  color: #2894dc;
+}
+footer a:hover {
+  color: #1f7ebe;
+}
+footer label {
+  font-weight: 700;
+}
+.block {
+  display: block;
+}
+.inline-flex {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: inline-flex;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 8px 16px;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-default {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.btn-default:hover {
+  background: #ddd;
+}
+.btn-primary {
+  background: #2894dc;
+  color: #fff;
+  border: 1px solid #2894dc;
+}
+.btn-primary:hover {
+  background: #1f7ebe;
+  color: #fff;
 }
