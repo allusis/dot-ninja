@@ -1,0 +1,14 @@
+## generic files to ignore
+
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.sass-cache
+*/*/*.css.map
+sftp-config.json
+node_modules
+.idea
+bower_components
+readme.html

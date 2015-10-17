@@ -1,0 +1,6 @@
+mixin book(name, price, name2)
+  li #{name} for #{price} #{name2} €
+  
+ul#books
+  +book("Book B", 12.99, "Book 2")
+  +book("Book C", 5.99, "Book 2")

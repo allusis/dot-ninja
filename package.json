@@ -1,0 +1,19 @@
+{
+  "name": "tm-gulp",
+  "version": "0.0.1",
+  "description": "Jade, Stylus, Livereload and static server",
+  "author": "Tony Montemorano",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "connect-livereload": "^0.5.3",
+    "express": "~3.4.8",
+    "gulp": "^3.9.0",
+    "gulp-concat": "~2.1.7",
+    "gulp-jade": "~2.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-util": "~2.2.12",
+    "kouto-swiss": "0.11.13",
+    "marked": "~0.3.0",
+    "tiny-lr": "^0.2.1"
+  }
+}
